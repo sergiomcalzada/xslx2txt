@@ -37,9 +37,9 @@ namespace xslx2textconsole
                             Console.WriteLine(e);
                             ConsoleWait("Press any key to continue.");
                         }
-                        Console.WriteLine("End in {0}s\n", fileWatcher.Elapsed.Seconds);
+                        Console.WriteLine("End in {0}\n", fileWatcher.Elapsed.ToReadableString());
                     }
-                    Console.WriteLine("Total elapsed time {0:N}m", mainWatcher.Elapsed.TotalMinutes);
+                    Console.WriteLine("Total elapsed time {0}", mainWatcher.Elapsed.ToReadableString());
                 }
 
                 ConsoleWait();
