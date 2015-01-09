@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xslx2text", "xslx2text\xslx2text.csproj", "{9ADF2109-F893-4E3D-96D6-C50E9EC57293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xslx2textlib", "xslx2textlib\xslx2textlib.csproj", "{17E7596C-9484-462E-AF94-99F3E0650C49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xslx2textconsole", "xslx2textconsole\xslx2textconsole.csproj", "{6799998B-0920-4BE4-9304-EC14C7642522}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ADF2109-F893-4E3D-96D6-C50E9EC57293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ADF2109-F893-4E3D-96D6-C50E9EC57293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ADF2109-F893-4E3D-96D6-C50E9EC57293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ADF2109-F893-4E3D-96D6-C50E9EC57293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E7596C-9484-462E-AF94-99F3E0650C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E7596C-9484-462E-AF94-99F3E0650C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E7596C-9484-462E-AF94-99F3E0650C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E7596C-9484-462E-AF94-99F3E0650C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6799998B-0920-4BE4-9304-EC14C7642522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6799998B-0920-4BE4-9304-EC14C7642522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6799998B-0920-4BE4-9304-EC14C7642522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6799998B-0920-4BE4-9304-EC14C7642522}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
