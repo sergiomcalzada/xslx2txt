@@ -39,7 +39,7 @@ namespace xslx2textconsole
                         }
                         Console.WriteLine("End in {0}s\n", fileWatcher.Elapsed.Seconds);
                     }
-                    Console.WriteLine("Total elapsed time {0}m", mainWatcher.Elapsed.TotalMinutes);
+                    Console.WriteLine("Total elapsed time {0:N}m", mainWatcher.Elapsed.TotalMinutes);
                 }
 
                 ConsoleWait();
